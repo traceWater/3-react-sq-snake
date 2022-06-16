@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board h1 {
+  margin: 100px 250px 300px 250px;
+  color: green;
+}
+
+.board div {
+  background-color: black;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  float: left;
+  width: 48px;
+  height: 48px;
+}
+
+.board {
+  width: calc(50 * 48px);
+  margin: auto;
+}
+
+.board .snake {
+  background-color: green;
+}
+.board .apple {
+  background-color: red;
+}
+#btn {
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 6px;
+}
